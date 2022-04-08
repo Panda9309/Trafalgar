@@ -43,11 +43,18 @@ li {
   max-width: 1220px;
   margin: auto;
 }
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
 .header__container {
   width: 1217px;
   height: 41px;
   align-items: center;
-  margin: 50px 0px 67px 0px;
+  margin: 20px 0px 67px 0px;
+  padding: 6px 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -200,7 +207,7 @@ li {
   height: 252px;
   background-color: #ffffff;
   padding: 55px 43px 47px 37px;
-  box-shadow: 20px 20px 10px rgba(109, 109, 109, 0.2);
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
   transition: all 0.8s, transform 0.8s ;
 }
@@ -208,7 +215,7 @@ li {
 .services__card-item:hover {
   transform: scale(1.03, 1.03);
   cursor: pointer;
-  box-shadow: 20px 20px 20px rgba(109, 109, 109, 0.2);
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.8);
 }
 
 .services__card-img {
